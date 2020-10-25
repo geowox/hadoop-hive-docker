@@ -94,4 +94,11 @@
         <value>*</value>
     </property>
 
+    <property>
+        <name>fs.s3a.aws.credentials.provider</name>
+        <value>
+            com.amazonaws.auth.EnvironmentVariableCredentialsProvider
+        </value>
+    </property>
+
 </configuration>
